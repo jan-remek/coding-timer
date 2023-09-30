@@ -1,0 +1,144 @@
+body {
+    background-color: white;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.headline {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* AB HIER CSS FÜR DEN TIMER */
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.timer-part {
+    font-size: 46px;
+    font-weight: bold;
+} 
+
+.timer-part-seconds {
+    margin-right: 35px;
+}
+
+
+.timer-btn {
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background-color: #8208e6;
+    cursor: pointer;
+
+}
+
+.timer-btn-start {
+    background-color: #00b84c;
+}
+
+.timer-btn-stop {
+    background-color: #ff0256;
+
+}
+
+.timer-btn-pause {
+    background-color: blue;
+}
+
+.btn-hover:hover {
+    box-shadow: 2px 2px 2px 0.5px rgba(0, 0, 0, .2);
+}
+
+/* AB HIER CSS FÜR DIE TIMER RESET BESTÄTIGUNG */
+
+.reset-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    width: 500px;
+}
+
+.button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 8px;
+    border-radius: 15px;
+    border: none;
+    background-color: #0096FF;
+    color: white;
+}
+
+.reset-information p {
+    margin-right: 25px;
+}
+
+.button:hover {
+    box-shadow: 2px 2px 2px 0.5px rgba(173, 173, 173, 0.2);
+}
+
+.reset-confirmation-yes {
+    background-color: green;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+.reset-confirmation-no {
+    background-color: red;
+}
+
+/* AB HIER CSS FÜR DIE MOTIVATIONSSPRÜCHE */
+
+.counter-motivation {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.motivation-quote {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.5;
+}
+
+
