@@ -163,12 +163,12 @@ export default class Timer {
     }
 
     playTimerFinishSound () {
-        let timerSound = new Audio('./Sounds/alarm.mp3');
+        let timerSound = new Audio('./alarm.mp3');
         timerSound.play();
     };
 
     playTimerMilestoneSound () {
-        let timerSound = new Audio('./Sounds/success.mp3');
+        let timerSound = new Audio('./success.mp3');
         timerSound.play();
     };
 
